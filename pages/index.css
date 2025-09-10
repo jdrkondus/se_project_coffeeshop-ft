@@ -100,7 +100,6 @@
   flex-direction: column;
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
-  background-position: cover;
   background-repeat: no-repeat;
   color: #ffffff;
 }
@@ -108,7 +107,7 @@
 .recipes__title {
   max-width: 580px;
   margin: 100px 0 24px 80px;
-  font-family: "inter" "arial" "sans-serif";
+  font-family: "inter arial sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -118,7 +117,7 @@
 .recipes__subtitle {
   max-width: 438px;
   margin: 24px 0 80px 80px;
-  font-family: "noto serif" "times new roman" "serif";
+  font-family: "noto serif times new roman serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
