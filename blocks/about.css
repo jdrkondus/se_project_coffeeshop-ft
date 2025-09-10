@@ -1,0 +1,68 @@
+.about {
+  background-color: #0a2850;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 100px 80px 173px;
+  position: relative;
+  z-index: 0;
+}
+
+.about__title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  max-width: 251px;
+  margin: 0;
+  z-index: 2;
+  justify-content: flex-start;
+}
+
+.about__content {
+  display: flex;
+  flex-direction: column;
+  max-width: 660px;
+  margin: 19px 0 0 20px;
+}
+
+.about__paragraph {
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  gap: 20px;
+}
+
+.about__circle {
+  background-color: #1878dc;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  z-index: -1;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out 0s infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+}
