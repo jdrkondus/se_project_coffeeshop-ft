@@ -13,4 +13,6 @@ This is the second project of the fulltime Software Engineering program at Tripl
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Add page for ordering ahead.
+- Make animation for successful submission of reservation request.
+- Add calorie info for all the items next to the price.
