@@ -9,7 +9,7 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked + span {
   background-color: #1878dc;
-  background-image: url(/images/check.svg);
+  background-image: url(../images/check.svg);
   background-repeat: no-repeat;
   background-size: contain;
   gap: 12px;
